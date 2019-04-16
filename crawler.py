@@ -4,6 +4,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+
+# the demo is to get the Catalog from OWASP page
 def gethtmlcontent(curl):
     response = requests.get(curl) #get page
     soup = BeautifulSoup(response.text, 'lxml') #use lxml format to explain it
