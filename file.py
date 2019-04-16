@@ -14,12 +14,12 @@ def readfile(filename):
     cfile = open(filename, 'r') 
     for line in cfile:
         pass # do something
-    file.close()
+    cfile.close()
 
 def readbylines(filename):
     cfile = open(filename, 'r') 
-    for line in file.readlines():
+    for line in cfile.readlines():
         line=line.strip('\n')
         pass
-    file.close()
+    cfile.close()
 
