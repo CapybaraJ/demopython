@@ -44,5 +44,5 @@ use this method to get content in tag:
     xxx.string
     xxx.text
     xxx.get_text()
-    PS: If the tag is nested with another tag, method 1 is None, the others is pure text
+    PS: If the tag is nested with other tags, method one is None, the others is pure text
 '''
