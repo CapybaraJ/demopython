@@ -1,4 +1,4 @@
-#coding: utf-8
+# coding: utf-8
 # use bs4 to craw the web content
 # it's suggested to use bs4 in python3, but this file is suitable for python2
 # now it will be rewritten in future
