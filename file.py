@@ -11,13 +11,16 @@
 To read/write binary file，just add b：
 'rb'　　'wb'　　'ab'　　'rb+'　　'wb+'　　'ab+'
 '''
+
+
 def readfile(filename):
     cfile = open(filename, 'r') 
     for line in cfile:
         pass # do something
     cfile.close()
 
-def readbylines(filename):
+
+def readline(filename):
     cfile = open(filename, 'r') 
     for line in cfile.readlines():
         line=line.strip('\n')
