@@ -1,7 +1,6 @@
 .DS_Store
 
 # Editors Settings
-
 .idea
 .vscode
 *.suo
