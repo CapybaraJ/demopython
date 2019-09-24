@@ -1,6 +1,7 @@
 # coding: utf-8
 # File Operation Demo
 # update:2019.4
+import io
 '''
 'r'：read
 'w'：write
@@ -27,3 +28,9 @@ def readline(filename):
         pass
     cfile.close()
 
+def nocloseread(filename):
+    with io.open(filename, "r", encoding="utf-8") as f:         # chose the encoding type
+        for line in f:
+            line=line.strip('\n')
+            pass
+    # no need to close;
